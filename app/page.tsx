@@ -1,8 +1,9 @@
+import Hero from "@/components/Home/Hero";
 
 export default function Home() {
 	return (
-		<div>
-			<h2>Sntaks Solutions</h2>
+		<div className="p-5 sm:px-10 md:px-20">
+			<Hero />
 		</div>
 	);
 }
