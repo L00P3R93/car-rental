@@ -6,13 +6,13 @@ const CarsFilterOption = () => {
                 <h2>Explore Available Cars</h2>
             </div>
             <div className="flex gap-5">
-                <select className="select select-bordered w-full max-w-xs">
-                    <option disabled selected>Price</option>
+                <select defaultValue={'Price'} className="select select-bordered w-full max-w-xs">
+                    <option disabled value='Price'>Price</option>
                     <option>Min to Max</option>
                     <option>Max to Min</option>
                 </select>
-                <select className="select select-bordered w-full md:block max-w-xs hidden">
-                    <option disabled selected>Manufacturer</option>
+                <select defaultValue={'Manufacturer'} className="select select-bordered w-full md:block max-w-xs hidden">
+                    <option disabled value='Manufacturer'>Manufacturer</option>
                     <option>Toyota</option>
                     <option>Mitsubishi</option>
                     <option>BMW</option>
